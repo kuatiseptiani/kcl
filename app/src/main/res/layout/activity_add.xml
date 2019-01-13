@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="app.kuatiseptiani.kenclengidapplication.AddActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah kenclengmu sekarang!"
+        android:textSize="19sp"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+          <android.support.v7.widget.CardView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:cardBackgroundColor="@color/colorWhite">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                  <RadioGroup
+                      android:id="@+id/radio_status"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+                      <RadioButton
+                          android:id="@+id/radio_pemasukan"
+                          android:layout_width="185dp"
+                          android:layout_height="wrap_content"
+                          android:text="Pemasukan" />
+
+                      <RadioButton
+                          android:id="@+id/radio_pengeluaran"
+                          android:layout_width="194dp"
+                          android:layout_height="match_parent"
+                          android:text="Pengeluaran" />
+
+                  </RadioGroup>
+
+              </LinearLayout>
+
+          </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/linear_atas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/colorWhite">
+
+                        <EditText
+                            android:id="@+id/edit_nominal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Rp."
+                            android:inputType="number" />
+
+                        <EditText
+                            android:id="@+id/edit_catatan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left|top"
+                            android:hint="Catatan"
+                            android:minLines="5"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_below="@+id/linear_atas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:background="@color/colorWhite">
+<!--
+                        <Button
+                            android:id="@+id/btn_batal"
+                            android:layout_width="173dp"
+                            android:layout_height="wrap_content"
+                            android:text="Batal"/>
+                        -->
+
+                        <Button
+                            android:id="@+id/btn_simpan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Simpan"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
