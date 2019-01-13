@@ -7,6 +7,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -14,7 +15,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,14 +50,14 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//           }
-//       });
+        FloatingActionButton fab = (FloatingActionButton) findViewById(fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+           }
+       });
 
         id = "";
         query_kencleng = "";
@@ -64,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         text_masuk = (TextView) findViewById(R.id.text_masuk);
         text_keluar = (TextView) findViewById(R.id.text_keluar);
-        text_total = (TextView) findViewById(R.id.swipe_refresh);
+        text_total = (TextView) findViewById(R.id.text_total);
         list_kencleng = (ListView) findViewById(R.id.list_kencleng);
         swipe_refresh = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh);
 
@@ -130,22 +133,23 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-//        SimpleAdapter simpleAdapter = new SimpleAdapter(this, aruskencleng, R.layout.list_kencleng,
-//                new String[] { "id", "status", "nominal", "catatan", "tanggal"},
-//                new int[] {R.id.text_id, R.id.text_status, R.id.text_nominal, R.id.text_catatan,
-//                        R.id.text_tanggal});
+    SimpleAdapter simpleAdapter = new SimpleAdapter(this, aruskencleng, R.layout.list_kencleng,
+            new String[] { "transaksi_id", "status", "jumlah", "keterangan", "tanggal"},
+            new int[] {R.id.text_id, R.id.text_status, R.id.text_nominal, R.id.text_catatan,
+                    R.id.text_tanggal});
 
-//        list_kencleng.setAdapter(simpleAdapter);
-//        list_kencleng.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                id = ((TextView) view.findViewById(R.id.text_id)).getText().toString();
-//                ListMenu();
-//            }
-//        });
+        list_kencleng.setAdapter(simpleAdapter);
+        list_kencleng.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            id = ((TextView) view.findViewById(R.id.text_id)).getText().toString();
+            ListMenu();
+        }
+    });
 
-//        kenclengTotal();
-//    }
+    kenclengTotal();
+}
+
 
     private void kenclengTotal() {
         NumberFormat rupiahFormat = NumberFormat.getInstance(Locale.GERMANY);
@@ -249,25 +253,25 @@ public class MainActivity extends AppCompatActivity {
 
 
 //    SimpleAdapter simpleAdapter = new SimpleAdapter(this, aruskencleng, R.layout.list_kencleng,
- //           new String[]("id", "status", "nominal", "catatan", "tanggal"),
- //           new int[] (R.id.text_id, R.id.text_status, R.id.text_nominal, R.id.text_catatan,R.id.text_tanggal) );
+  //          new String[]("id", "status", "nominal", "catatan", "tanggal"),
+    //        new int[] (R.id.text_id, R.id.text_status, R.id.text_nominal, R.id.text_catatan,R.id.text_tanggal) );
 
 
-//        list_kencleng.setAdapter(simpleAdapter);
-  //      list_kencleng.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+      //  list_kencleng.setAdapter(simpleAdapter);
+//        list_kencleng.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
- //       @Override
- //       public void onItemClick (AdapterView< ? > parent, View view, int position, long id){
-   //     id = ((TextView) findViewById().toString(R.id.id)).getText().toString();
+    //    @Override
+  //      public void onItemClick (AdapterView< ? > parent, View view, int position, long id){
+      //  id = ((TextView) findViewById().toString(R.id.id)).getText().toString();
   //      Log.e("id", id);
 
- //       private void ListMenu();
- //   }
- //   });
+    //    private void ListMenu();
+    //}
+//    });
 
-//    KenclengTotal();
+    //KenclengTotal();
 
-  //      }
+      //  }
 
 
 
