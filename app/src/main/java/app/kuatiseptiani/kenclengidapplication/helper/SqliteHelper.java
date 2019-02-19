@@ -23,7 +23,7 @@ public class SqliteHelper extends SQLiteOpenHelper {
         // TODO Auto-generated method stub
         db.execSQL(
                 "CREATE TABLE tb_kencleng (id integer primary key autoincrement not null, status TEXT," +
-                        "nominal DOUBLE, catatan TEXT, tanggal DATE DEFAULT CURRENT_DATE );"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "nominal DOUBLE, catatan TEXT, tanggal DATE DEFAULT CURRENT_DATE );"
         );
     }
 

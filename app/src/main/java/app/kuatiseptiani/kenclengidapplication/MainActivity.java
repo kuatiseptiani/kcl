@@ -7,12 +7,11 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.AdapterView;
@@ -35,8 +34,7 @@ public class MainActivity extends AppCompatActivity {
     SwipeRefreshLayout swipe_refresh;
     ArrayList<HashMap<String, String>> aruskencleng = new ArrayList<HashMap<String, String>>();
 
-    String id;
-    //   String transaksi_id;
+    public static String id_transaksi;
 
     String query_kencleng, query_total;
     SqliteHelper sqliteHelper;
@@ -50,16 +48,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-           }
-       });
-
-        id = "";
+        id_transaksi = "";
         query_kencleng = "";
         query_total = "";
 
@@ -74,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
         swipe_refresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                query_kencleng   =
-                        "SELECT *, strftime('%d/%m/%Y', tanggal) AS tgl FROM tb_kencleng ORDER BY id DESC";
+                query_kencleng =
+                        "SELECT *, strftime('%Y/%m/%d', tanggal) AS tgl FROM tb_kencleng ORDER BY id DESC";
                 query_total =
                         "SELECT SUM(nominal) AS total, " +
                                 "(SELECT SUM(nominal) FROM tb_kencleng WHERE status='pemasukan') AS pemasukan, " +
@@ -85,9 +74,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//     aruskencleng = new ArrayList<>();
+        aruskencleng = new ArrayList<>();
 
-//     sqliteHelper = new SqliteHelper(this);
+        sqliteHelper = new SqliteHelper(this);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -101,14 +90,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     private void kenclengAdapter() {
-//        swipe_refresh.setRefreshing(false);
+
         aruskencleng.clear();
         list_kencleng.setAdapter(null);
 
         SQLiteDatabase database = sqliteHelper.getReadableDatabase();
-//        cursor = database.rawQuery( SELECT *,  strftime('%d/%m/%Y', tanggal) AS tanggal FROM db_kencleng WHERE id= '"'+ MainActivity.id + ',' null);
         cursor = database.rawQuery(query_kencleng, null);
         cursor.moveToFirst();
 
@@ -116,14 +103,12 @@ public class MainActivity extends AppCompatActivity {
         for (i = 0; i < cursor.getCount(); i++) {
             cursor.moveToPosition(i);
 
-            //Log.d("status", cursor.getString(1));
-
             HashMap<String, String> map = new HashMap<String, String>();
             map.put("id", cursor.getString(0));
             map.put("status", cursor.getString(1));
             map.put("nominal", cursor.getString(2));
             map.put("catatan", cursor.getString(3));
-            map.put("tanggal", cursor.getString(5));
+            map.put("tanggal", cursor.getString(4));
             aruskencleng.add(map);
         }
 
@@ -131,24 +116,31 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Tidak ada transaksi untuk ditampilkan",
                     Toast.LENGTH_LONG).show();
         }
-    }
 
-    SimpleAdapter simpleAdapter = new SimpleAdapter(this, aruskencleng, R.layout.list_kencleng,
-            new String[] { "transaksi_id", "status", "jumlah", "keterangan", "tanggal"},
-            new int[] {R.id.text_id, R.id.text_status, R.id.text_nominal, R.id.text_catatan,
-                    R.id.text_tanggal});
+        SimpleAdapter simpleAdapter = new SimpleAdapter(this, aruskencleng, R.layout.list_kencleng,
+                new String[]{"id", "status", "nominal", "catatan", "tanggal"},
+                new int[]{R.id.text_id, R.id.text_status, R.id.text_nominal, R.id.text_catatan,
+                        R.id.text_tanggal});
 
         list_kencleng.setAdapter(simpleAdapter);
         list_kencleng.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-        @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            id = ((TextView) view.findViewById(R.id.text_id)).getText().toString();
-            ListMenu();
-        }
-    });
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //    id = ((TextView) view.findViewById(R.id.text_id).getText().toString());
+                //
+                // String temp = getText().toString();
+                //String temp =(TextView) view.findViewById(R.id.text_id).getText().toString();
+                //id = Long.parseInt(temp)
 
-    kenclengTotal();
-}
+                id_transaksi = aruskencleng.get(position).get("id");
+                TextView bebas = (TextView) view.findViewById(R.id.text_id);
+                String temp = bebas.getText().toString();
+                ListMenu(id_transaksi);
+            }
+        });
+
+        kenclengTotal();
+    }
 
 
     private void kenclengTotal() {
@@ -158,10 +150,10 @@ public class MainActivity extends AppCompatActivity {
         cursor = database.rawQuery(query_total, null);
         cursor.moveToFirst();
 //        text_total.setText( rupiahFormat.format(cursor.getDouble(0)) );
-        text_masuk.setText(rupiahFormat.format(cursor.getDouble(1)));
-        text_keluar.setText(rupiahFormat.format(cursor.getDouble(2)));
-        text_total.setText(
-                rupiahFormat.format(cursor.getDouble(1) - cursor.getDouble(2))
+        text_masuk.setText("Rp. "+rupiahFormat.format(cursor.getDouble(1))+",-");
+        text_keluar.setText("Rp. "+rupiahFormat.format(cursor.getDouble(2))+",-");
+        text_total.setText("Rp. "+
+                rupiahFormat.format(cursor.getDouble(1) - cursor.getDouble(2))+",-"
         );
 
         swipe_refresh.setRefreshing(false);
@@ -174,9 +166,9 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         query_kencleng =
-                "SELECT *, strftime ('%d/%m/%Y', tanggal) AS tanggal FROM tb_kencleng ORDER BY id DESC";
+                "SELECT *, strftime ('%Y/%m/%d', tanggal) AS tanggal FROM tb_kencleng ORDER BY id DESC";
         query_total =
-                "SELECT SUM(jumlah) AS total, " +
+                "SELECT SUM(nominal) AS total, " +
                         "(SELECT SUM(nominal) FROM tb_kencleng WHERE status='pemasukan') AS pemasukan, " +
                         "(SELECT SUM(nominal) FROM tb_kencleng WHERE status='pengeluaran') AS pengeluaran " +
                         "FROM tb_kencleng";
@@ -184,13 +176,14 @@ public class MainActivity extends AppCompatActivity {
         kenclengAdapter();
     }
 
-    private void ListMenu() {
+    private void ListMenu(final String transaksiId){
+
         final Dialog dialog = new Dialog(MainActivity.this);
         dialog.setContentView(R.layout.list_menu);
-        dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
-        dialog.show();
+        dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT,
+                WindowManager.LayoutParams.WRAP_CONTENT);
 
-        TextView text_edit = (TextView) dialog.findViewById(R.id.text_edit);
+        TextView text_edit  = (TextView) dialog.findViewById(R.id.text_edit);
         TextView text_hapus = (TextView) dialog.findViewById(R.id.text_hapus);
         dialog.show();
 
@@ -198,23 +191,26 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 dialog.dismiss();
-                startActivity(new Intent(MainActivity.this, EditActivity.class));
+                Intent i = new Intent(MainActivity.this, EditActivity.class);
+                i.putExtra("idTransaksi", transaksiId);
+                startActivity(i);
             }
         });
         text_hapus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 dialog.dismiss();
-                hapus();
+                int id = Integer.parseInt(transaksiId);
+                hapus(id);
             }
         });
     }
 
 
-    private void hapus() {
+    private void hapus(final int idTransaksi) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Konfirmasi");
-        builder.setMessage("Yakin untuk menghapus transaksi ini?");
+        builder.setMessage("Yakin ingin menghapus transaksi ini?");
         builder.setPositiveButton(
                 "Yes",
                 new DialogInterface.OnClickListener() {
@@ -222,7 +218,8 @@ public class MainActivity extends AppCompatActivity {
                         dialog.dismiss();
 
                         SQLiteDatabase database = sqliteHelper.getWritableDatabase();
-                        database.execSQL("DELETE FROM tb_kencleng WHERE id = '" + id + "'");
+                        Log.d("ID",id+"");
+                        database.execSQL("DELETE FROM tb_kencleng WHERE id = " + idTransaksi + ";");
                         Toast.makeText(getApplicationContext(), "Tranksaki berhasil dihapus",
                                 Toast.LENGTH_LONG).show();
 
@@ -241,15 +238,8 @@ public class MainActivity extends AppCompatActivity {
 
         builder.show();
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
 }
+
 
 
 //    SimpleAdapter simpleAdapter = new SimpleAdapter(this, aruskencleng, R.layout.list_kencleng,

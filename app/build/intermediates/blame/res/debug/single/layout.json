@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/447a1a8eb08f0a31033e7f80063e85d1e205f287/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/activity_edit.xml",
+        "source": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/res/layout/activity_edit.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/list_kencleng.xml",
+        "source": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/res/layout/list_kencleng.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/447a1a8eb08f0a31033e7f80063e85d1e205f287/output/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/list_menu.xml",
+        "source": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/res/layout/list_menu.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/content_main.xml",
+        "source": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/tooltip.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/tooltip.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/447a1a8eb08f0a31033e7f80063e85d1e205f287/output/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/447a1a8eb08f0a31033e7f80063e85d1e205f287/output/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/dcd260000930a28320a761a590636a1b9a33a3b6/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/dcd260000930a28320a761a590636a1b9a33a3b6/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/dcd260000930a28320a761a590636a1b9a33a3b6/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/activity_splash_screen.xml",
+        "source": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/447a1a8eb08f0a31033e7f80063e85d1e205f287/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/dcd260000930a28320a761a590636a1b9a33a3b6/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/dcd260000930a28320a761a590636a1b9a33a3b6/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/447a1a8eb08f0a31033e7f80063e85d1e205f287/output/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/447a1a8eb08f0a31033e7f80063e85d1e205f287/output/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/447a1a8eb08f0a31033e7f80063e85d1e205f287/output/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/activity_add.xml",
+        "source": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/res/layout/activity_add.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/447a1a8eb08f0a31033e7f80063e85d1e205f287/output/res/layout/notification_template_media.xml"
+    }
+]

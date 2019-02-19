@@ -61,24 +61,24 @@ public class AddActivity extends AppCompatActivity {
         btn_simpan.setOnClickListener(new View.OnClickListener() {
                                           @Override
                                           public void onClick(View v) {
-                                              if (status.equals("") || edit_nominal.getText().toString().equals("")) {
-                                                  Toast.makeText(getApplicationContext(), "Isi data dengan benar",
-                                                          Toast.LENGTH_LONG).show();
-                                              } else {
-                                                  SQLiteDatabase database = sqliteHelper.getWritableDatabase();
-                                                  database.execSQL("INSERT INTO tb_kencleng(status, nominal, catatan) VALUES('" +
-                                                          status + "','" +
-                                                          edit_nominal.getText().toString() + "','" +
-                                                          edit_catatan.getText().toString() + "')"
-                                                  );
-                                                  Toast.makeText(getApplicationContext(), "Transaksi berhasil disimpan", Toast.LENGTH_LONG).show();
-                                                  finish();
-                                              }
-                                          }
-                                      });
+              if (status.equals("") || edit_nominal.getText().toString().equals("")) {
+                  Toast.makeText(getApplicationContext(), "Isi data dengan benar",
+                          Toast.LENGTH_LONG).show();
+              } else {
+                  SQLiteDatabase database = sqliteHelper.getWritableDatabase();
+                  database.execSQL("INSERT INTO tb_kencleng(status, nominal, catatan) VALUES('" +
+                          status + "','" +
+                          edit_nominal.getText().toString() + "','" +
+                          edit_catatan.getText().toString() + "')"
+                  );
+                  Toast.makeText(getApplicationContext(), "Transaksi berhasil disimpan", Toast.LENGTH_LONG).show();
+                  finish();
+              }
+          }
+      });
 
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-            getSupportActionBar().setTitle("Tambah");
+            getSupportActionBar().setTitle("Transaksi");
 
             }
 

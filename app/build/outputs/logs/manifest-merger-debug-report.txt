@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:3:5-54
+		INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:5:5-34:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/kuatiseptiani/.android/build-cache/d61cfed8351d11915891ca5bfcbe26ec4b7d0eee/output/AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/kuatiseptiani/.android/build-cache/923164c564f55bff448e241f773fcd94e8b7870e/output/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:8:9-42
+	android:supportsRtl
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:9:9-48
+	android:allowBackup
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:11:9-40
+activity#app.kuatiseptiani.kenclengidapplication.SplashScreen
+ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:12:9-22:20
+	android:theme
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:19:27-74
+activity#app.kuatiseptiani.kenclengidapplication.MainActivity
+ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:24:9-29:20
+	android:label
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:26:13-45
+	android:theme
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:25:13-41
+activity#app.kuatiseptiani.kenclengidapplication.AddActivity
+ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:30:9-31:57
+	android:parentActivityName
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:31:13-55
+	android:name
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:30:19-46
+activity#app.kuatiseptiani.kenclengidapplication.EditActivity
+ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:32:9-33:57
+	android:parentActivityName
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:33:13-55
+	android:name
+		ADDED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml:32:19-47
+uses-sdk
+INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/kuatiseptiani/.android/build-cache/d61cfed8351d11915891ca5bfcbe26ec4b7d0eee/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.0.0] /home/kuatiseptiani/.android/build-cache/a06d3f728f734b932bf8e7e3e70fa48ae221689e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] /home/kuatiseptiani/.android/build-cache/ee8b5ff0594915d1c2d7a0e44b21903f4b439c49/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /home/kuatiseptiani/.android/build-cache/e32486a5843235399fcae0874fd262dace4a76de/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /home/kuatiseptiani/.android/build-cache/60d010ffa7d5a3b4bb93435e8bc7d69692d3e999/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /home/kuatiseptiani/.android/build-cache/612dbc655ab9af2dc1d8f8e4200795deac7dd4c0/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /home/kuatiseptiani/.android/build-cache/be268a0d3a6f4b7ed6f2f8316d3b524d684a59b0/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/kuatiseptiani/.android/build-cache/c81d4cf097fa31f7d01ea241f5a711ddfc1dbabc/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.0] /home/kuatiseptiani/.android/build-cache/ce14d248104ac6420f2398aae2741ce6dd1bafb4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] /home/kuatiseptiani/.android/build-cache/9d118535db86c68f0ff7655797e3271105deaede/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] /home/kuatiseptiani/.android/build-cache/447a1a8eb08f0a31033e7f80063e85d1e205f287/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /home/kuatiseptiani/.android/build-cache/a3243952aee3436b3a1a4af8efcda5e8ec57c646/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /home/kuatiseptiani/.android/build-cache/e0223450cd5e141b042c18a97faf636bcc713851/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /home/kuatiseptiani/.android/build-cache/f60793c866f042ea3d95eb6e48f04bafb7029b6b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /home/kuatiseptiani/.android/build-cache/dcd260000930a28320a761a590636a1b9a33a3b6/output/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/kuatiseptiani/.android/build-cache/923164c564f55bff448e241f773fcd94e8b7870e/output/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/src/main/AndroidManifest.xml
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/kuatiseptiani/.android/build-cache/923164c564f55bff448e241f773fcd94e8b7870e/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/kuatiseptiani/.android/build-cache/923164c564f55bff448e241f773fcd94e8b7870e/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/kuatiseptiani/.android/build-cache/923164c564f55bff448e241f773fcd94e8b7870e/output/AndroidManifest.xml:26:13-58

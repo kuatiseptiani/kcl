@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/dcd260000930a28320a761a590636a1b9a33a3b6/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/dcd260000930a28320a761a590636a1b9a33a3b6/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/dcd260000930a28320a761a590636a1b9a33a3b6/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/kuatiseptiani/AndroidStudioProjects/Kencleng.IdApplication/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/kuatiseptiani/.android/build-cache/dcd260000930a28320a761a590636a1b9a33a3b6/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]
